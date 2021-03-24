@@ -1,0 +1,146 @@
+.App {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100vw;
+}
+body {
+  margin: 0;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --primary-color: #2563eb;
+}
+
+.position-absolute {
+  position: absolute;
+}
+.position-relative {
+  position: relative;
+}
+
+@media screen and (max-width: 850px) {
+  .adjust-nav {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 4px 0px;
+  }
+}
+.adjust-nav {
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 12px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-header {
+  flex-grow: 8;
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.sidebar {
+  max-width: 200px;
+  position: fixed;
+  background: #eee;
+  overflow: auto;
+  height: 100vh;
+}
+.sidebar li {
+  color: #2196f3;
+}
+.sidebar li:hover,
+:focus {
+  color: #064579;
+}
+.sidebar-dark-mode {
+  background-color: rgb(30, 30, 30);
+  max-width: 200px;
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+}
+.sidebar-dark-mode li {
+  color: grey;
+}
+.sidebar-dark-mode li:hover {
+  color: #2196f3;
+}
+.heading {
+  font-size: 40px;
+}
+.small-text {
+  font-size: 15px;
+}
+.medium-text {
+  font-size: 30px;
+}
+.bold-text {
+  font-weight: 800;
+}
+.text-center {
+  text-align: center;
+}
+.grey-text {
+  color: grey;
+}
+.list-style {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+}
+.spaced-list {
+  line-height: 20px;
+}
+.spaced-list > li {
+  margin: 15px 0;
+}
+
+.padding-one {
+  padding: 1rem;
+}
+.padding-sides {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.component-container {
+  border: solid 1px grey;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+.code-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+.flex-row {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pointer {
+  cursor: pointer;
+}

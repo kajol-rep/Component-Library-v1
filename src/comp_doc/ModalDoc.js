@@ -15,6 +15,19 @@ export default function ModalDoc() {
         A modal is a dialog box/popup window that is displayed on top of the
         current page, after some specified user interactivity.
       </p>
+      <p className="medium-text">
+        Download the component from here{" "}
+        <span>
+          <a
+            href="https://wrap-it.netlify.app/Modal.jsx"
+            class="primary-outline-btn curved-edge-btn link-btn"
+            download
+          >
+            Download
+          </a>
+        </span>
+      </p>
+      <br />
       <span className="medium-text">Basic modal</span>
       <p>A basic modal just contains some text information inside it.</p>
       <div className="component-container">

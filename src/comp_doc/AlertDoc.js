@@ -9,6 +9,18 @@ export default function AlertDoc() {
         An alert displays a short, important message in a way that attracts the
         user's attention without interrupting the user's task.
       </p>
+      <p className="medium-text">
+        Download the component from here{" "}
+        <span>
+          <a
+            href="https://wrap-it.netlify.app/Alert.jsx"
+            class="primary-outline-btn curved-edge-btn link-btn"
+            download
+          >
+            Download
+          </a>
+        </span>
+      </p>
       <span className="medium-text">Variants of alert</span>
       <p>
         There are seven variants that sets a distinctive icon and color as

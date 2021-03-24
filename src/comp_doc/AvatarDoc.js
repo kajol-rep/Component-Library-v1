@@ -8,6 +8,18 @@ export default function AvatarDoc() {
         The Avatar component is used to represent a user, and displays the
         profile picture, initials or fallback icon.
       </p>
+      <p className="medium-text">
+        Download the component from here{" "}
+        <span>
+          <a
+            href="https://wrap-it.netlify.app/Avatar.jsx"
+            class="primary-outline-btn curved-edge-btn link-btn"
+            download
+          >
+            Download
+          </a>
+        </span>
+      </p>
       <br />
       <span className="medium-text">Image avatars</span>
       <p>

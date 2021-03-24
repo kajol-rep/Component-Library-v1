@@ -12,6 +12,18 @@ export default function BadgeDoc() {
         different shapes and sizes. The Badge component can be easily integrated
         with icons, Avatars, and other container controls.
       </p>
+      <p className="medium-text">
+        Download the component from here{" "}
+        <span>
+          <a
+            href="https://wrap-it.netlify.app/Badge.jsx"
+            class="primary-outline-btn curved-edge-btn link-btn"
+            download
+          >
+            Download
+          </a>
+        </span>
+      </p>
       <br />
       <span className="medium-text">Basic badge</span>
       <p>A basic badge can be empty or can have any text inside it.</p>

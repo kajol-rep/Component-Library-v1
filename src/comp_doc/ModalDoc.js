@@ -19,7 +19,7 @@ export default function ModalDoc() {
         Download the component from here{" "}
         <span>
           <a
-            href="https://wrap-it.netlify.app/Modal.jsx"
+            href="https://wrap-it-library.netlify.app/Modal.jsx"
             class="primary-outline-btn curved-edge-btn link-btn"
             download
           >

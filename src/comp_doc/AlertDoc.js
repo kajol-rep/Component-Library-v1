@@ -13,7 +13,7 @@ export default function AlertDoc() {
         Download the component from here{" "}
         <span>
           <a
-            href="https://wrap-it.netlify.app/Alert.jsx"
+            href="https://wrap-it-library.netlify.app/Alert.jsx"
             class="primary-outline-btn curved-edge-btn link-btn"
             download
           >

@@ -22,11 +22,12 @@ export default function Home() {
         Before getting started include this link in your code to access the
         styles.
       </p>
+
       <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28191%2C220%2C238%2C0.22%29&t=vscode&wt=none&l=jsx&ds=false&dsyoff=20px&dsblur=73px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=15px&lh=133%25&si=false&es=4x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fwrap-it-library.netlify.app%252FcomponentStyle.css%2522%253E%250A"
         title="style"
-        src="https://carbon.now.sh/embed?bg=rgba%28191%2C220%2C238%2C0.22%29&t=vscode&wt=none&l=jsx&ds=false&dsyoff=20px&dsblur=73px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=dm&fs=15px&lh=133%25&si=false&es=4x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fwrap-it.netlify.app%252FcomponentStyle.css%2522%253E%250A"
         style={{
-          width: "706px",
+          width: "772px",
           height: "112px",
           border: "0",
           transform: "scale(1)",

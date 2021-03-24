@@ -12,7 +12,7 @@ export default function AvatarDoc() {
         Download the component from here{" "}
         <span>
           <a
-            href="https://wrap-it.netlify.app/Avatar.jsx"
+            href="https://wrap-it-library.netlify.app/Avatar.jsx"
             class="primary-outline-btn curved-edge-btn link-btn"
             download
           >

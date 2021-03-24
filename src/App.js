@@ -5,7 +5,7 @@ import {
   HiLightningBolt,
   HiOutlineLightningBolt
 } from "react-icons/hi";
-
+import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 import { ComponentRouter } from "./Router";
 const listOfComponents = [
@@ -49,6 +49,13 @@ export default function App() {
           >
             {darkMode ? <HiLightningBolt /> : <HiOutlineLightningBolt />}
           </div>
+          <a
+            style={{ color: "white" }}
+            href="https://github.com/kajol-rep/Component-Library"
+            className="medium-text"
+          >
+            <FaGithub />
+          </a>
         </div>
       </nav>
       <div className={darkMode ? "sidebar-dark-mode" : "sidebar"}>

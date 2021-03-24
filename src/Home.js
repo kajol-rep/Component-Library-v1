@@ -4,7 +4,7 @@ export default function Home() {
     <div>
       <div className="horizontal-card">
         <img
-          style={{ width: "80%", height: "30rem" }}
+          style={{ width: "50%", height: "30rem" }}
           alt=""
           src="https://uploads-ssl.webflow.com/5e6fd8b314a08bebab35c81a/5ff6a74fce7e0114a17adc81_undraw_Books_l33t.svg"
         />
